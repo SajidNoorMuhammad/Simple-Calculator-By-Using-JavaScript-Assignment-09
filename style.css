@@ -57,17 +57,17 @@
     flex-direction: column;
     background-color: #adadad;
 }
-/* 
+
 .display-container {
     text-align: center;
     color: white;
     font-size: 15px;
-} */
+}
 
-/* .display-box {
+.display-box {
     display: flex;
     justify-content: end;
-} */
+}
 
 /* .display-container p {
     background-color: green;
