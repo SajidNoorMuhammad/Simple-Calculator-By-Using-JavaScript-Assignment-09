@@ -52,11 +52,11 @@ function myResult() {
     }
 }
 
-// function deleteAllFunction() {
-//     CurrentNumber.value = "";
-//     operatorSec.value = "";
-//     previousNumber.value = "";
-// }
+function deleteAllFunction() {
+    CurrentNumber.value = "";
+    operatorSec.value = "";
+    previousNumber.value = "";
+}
 
 // // single delete function ****
 // function deleteFunction() {
