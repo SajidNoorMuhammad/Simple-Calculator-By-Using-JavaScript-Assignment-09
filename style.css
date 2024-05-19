@@ -51,12 +51,12 @@
 }
 
 
-/* .display-container {
+.display-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #adadad;
-} */
+}
 /* 
 .display-container {
     text-align: center;
