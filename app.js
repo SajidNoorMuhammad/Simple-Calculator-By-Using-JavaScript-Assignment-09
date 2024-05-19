@@ -4,7 +4,7 @@ var previousNumber = document.getElementById("previous-number");
 var result = document.getElementById("btn");
 var deleteAll = document.getElementById("delete-all");
 var delet = document.getElementById("delete");
-// var historySec = document.getElementById("history-sec");
+var historySec = document.getElementById("history-sec");
 
 
 // function getValue(val) {
