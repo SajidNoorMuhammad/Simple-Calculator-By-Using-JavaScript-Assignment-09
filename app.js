@@ -7,11 +7,11 @@ var delet = document.getElementById("delete");
 var historySec = document.getElementById("history-sec");
 
 
-// function getValue(val) {
-//     var CurrentNumber = document.getElementById("current-number")
-//     CurrentNumber.value += val
-//     console.log(CurrentNumber.value)
-// }
+function getValue(val) {
+    var CurrentNumber = document.getElementById("current-number")
+    CurrentNumber.value += val
+    console.log(CurrentNumber.value)
+}
 
 // function operatorFunction(opr) {
 //     if (CurrentNumber.value) {
