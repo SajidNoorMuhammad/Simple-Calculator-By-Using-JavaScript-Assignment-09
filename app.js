@@ -1,5 +1,5 @@
 var CurrentNumber = document.getElementById("current-number");
-// var operatorSec = document.getElementById("operator-sec");
+var operatorSec = document.getElementById("operator-sec");
 // var previousNumber = document.getElementById("previous-number");
 // var result = document.getElementById("btn");
 // var deleteAll = document.getElementById("delete-all");
