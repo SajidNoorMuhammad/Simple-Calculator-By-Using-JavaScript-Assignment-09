@@ -58,7 +58,7 @@ function deleteAllFunction() {
     previousNumber.value = "";
 }
 
-// // single delete function ****
-// function deleteFunction() {
-//     CurrentNumber.value = CurrentNumber.value.slice(0, CurrentNumber.value.length - 1);
-// }
+// single delete function ****
+function deleteFunction() {
+    CurrentNumber.value = CurrentNumber.value.slice(0, CurrentNumber.value.length - 1);
+}
