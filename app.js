@@ -23,34 +23,34 @@ function operatorFunction(opr) {
     }
 }
 
-// function myResult() {
-//     var final = ""
-//     if (operatorSec.value == "+") {
-//         var num1 = Number(previousNumber.value);
-//         var num2 = Number(CurrentNumber.value);
-//         final = num1 + num2
-//         CurrentNumber.value += num2 + "="
-//         CurrentNumber.value = final
-//     } else if (operatorSec.value == "-") {
-//         var num1 = Number(previousNumber.value);
-//         var num2 = Number(CurrentNumber.value);
-//         final = num1 - num2
-//         operatorSec.value += num2 + "="
-//         operatorSec.value = final;
-//     } else if (operatorSec.value == "*") {
-//         var num1 = Number(previousNumber.value);
-//         var num2 = Number(CurrentNumber.value);
-//         final = num1 * num2
-//         operatorSec.value += num2 + "="
-//         CurrentNumber.value = final;
-//     } else if (operatorSec.value == "/") {
-//         var num1 = Number(previousNumber.value)
-//         var num2 = Number(CurrentNumber.value)
-//         final = num1 / num2
-//         operatorSec.value += num2 + "="
-//         CurrentNumber.value = final
-//     }
-// }
+function myResult() {
+    var final = ""
+    if (operatorSec.value == "+") {
+        var num1 = Number(previousNumber.value);
+        var num2 = Number(CurrentNumber.value);
+        final = num1 + num2
+        CurrentNumber.value += num2 + "="
+        CurrentNumber.value = final
+    } else if (operatorSec.value == "-") {
+        var num1 = Number(previousNumber.value);
+        var num2 = Number(CurrentNumber.value);
+        final = num1 - num2
+        operatorSec.value += num2 + "="
+        operatorSec.value = final;
+    } else if (operatorSec.value == "*") {
+        var num1 = Number(previousNumber.value);
+        var num2 = Number(CurrentNumber.value);
+        final = num1 * num2
+        operatorSec.value += num2 + "="
+        CurrentNumber.value = final;
+    } else if (operatorSec.value == "/") {
+        var num1 = Number(previousNumber.value)
+        var num2 = Number(CurrentNumber.value)
+        final = num1 / num2
+        operatorSec.value += num2 + "="
+        CurrentNumber.value = final
+    }
+}
 
 // function deleteAllFunction() {
 //     CurrentNumber.value = "";
