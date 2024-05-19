@@ -13,15 +13,15 @@ function getValue(val) {
     console.log(CurrentNumber.value)
 }
 
-// function operatorFunction(opr) {
-//     if (CurrentNumber.value) {
-//         operatorSec.value = opr;
-//         previousNumber.value = CurrentNumber.value;
-//         CurrentNumber.value = "";
-//     } else {
-//         operatorSec.value = opr;
-//     }
-// }
+function operatorFunction(opr) {
+    if (CurrentNumber.value) {
+        operatorSec.value = opr;
+        previousNumber.value = CurrentNumber.value;
+        CurrentNumber.value = "";
+    } else {
+        operatorSec.value = opr;
+    }
+}
 
 // function myResult() {
 //     var final = ""
