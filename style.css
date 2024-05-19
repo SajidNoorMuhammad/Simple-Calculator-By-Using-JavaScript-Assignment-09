@@ -77,14 +77,15 @@
 
 }
 
-/* #current-number {
+#current-number {
     box-shadow: none;
     font-size: 42px;
     text-align: right;
     width: 312px;
     margin: 0px;
     color: #473e3e
-} */
+}
+
 /* 
 #operator-sec {
     box-shadow: none;
