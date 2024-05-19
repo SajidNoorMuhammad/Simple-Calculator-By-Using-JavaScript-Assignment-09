@@ -69,13 +69,13 @@
     justify-content: end;
 }
 
-/* .display-container p {
+.display-container p {
     background-color: green;
     font-size: 21px;
     text-align: start;
     padding-bottom: 8px;
 
-} */
+}
 
 /* #current-number {
     box-shadow: none;
